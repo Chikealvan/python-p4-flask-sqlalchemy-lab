@@ -8,6 +8,7 @@ from app import app
 from models import db, Zookeeper, Animal, Enclosure
 
 fake = Faker()
+db.relationship()
 
 with app.app_context():
 
